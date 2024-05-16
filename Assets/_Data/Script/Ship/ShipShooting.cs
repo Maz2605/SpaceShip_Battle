@@ -5,7 +5,7 @@ public class ShipShooting : MazMonoBehavior
     [SerializeField] private float shootDelay = 0.09f;
     [SerializeField] private float shootTimer = 0f;
     [SerializeField] private Transform bulletPrefab;
-    protected static string bulletName = "Bullet_2";
+    protected static string bulletName = "Bullet_1";
     protected bool isShooting = false;
 
     private void Update()
